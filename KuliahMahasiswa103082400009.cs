@@ -4,8 +4,6 @@ using System.Text.Json;
 
 namespace tpmodul7_kelompok_4
 {
-    internal class KuliahMahasiswa103082400009
-    {
         public class MataKuliah
         {
             public string kode_matakuliah { get; set; }
@@ -47,5 +45,4 @@ namespace tpmodul7_kelompok_4
                 }
             }
         }
-    }
 }
