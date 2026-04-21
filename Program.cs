@@ -10,7 +10,8 @@ class Program
         kuliahMahasiswa.ReadJSON();
         // mira
         DataMahasiswa103082400001.ReadJSON();
-        KuliahMahasiswa103082400001.ReadJSON();
+        KuliahMahasiswa103082400001.ReadJSON(); 
+
         // debby
         DataMahasiswa103082400029.ReadJSON();
         KuliahMahasiswa103082400029.ReadJSON();

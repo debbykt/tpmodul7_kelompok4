@@ -9,6 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="tp7_1_103082400001.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="tp7_2_103082400001.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     <None Update="tp7_1_103082400009.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
