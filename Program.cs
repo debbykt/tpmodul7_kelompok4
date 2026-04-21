@@ -3,5 +3,6 @@
     static void Main(string[] args)
     {
         DataMahasiswa103082400001.ReadJSON();
+        KuliahMahasiswa103082400001.ReadJSON(); 
     }
 }
