@@ -1,15 +1,34 @@
-﻿using System;
+
 
 namespace tpmodul7_kelompok_4
 {
-    class Program
+
+class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            DataMahasiswa_103082400039 data = new DataMahasiswa_103082400039();
+        // alvan
+        DataMahasiswa_103082400009 dataMahasiswa = new DataMahasiswa_103082400009();
+        KuliahMahasiswa_103082400009 kuliahMahasiswa = new KuliahMahasiswa_103082400009();
+
+        Console.WriteLine("===DataMahasiswa===");
+        dataMahasiswa.ReadJSON();
+        Console.WriteLine();
+        Console.WriteLine("===KuliahMahasiswa===");
+        kuliahMahasiswa.ReadJSON();
+        // mira
+        DataMahasiswa103082400001.ReadJSON();
+        KuliahMahasiswa103082400001.ReadJSON(); 
+
+        // debby
+        DataMahasiswa103082400029.ReadJSON();
+        KuliahMahasiswa103082400029.ReadJSON();
+      
+      //amanda
+       DataMahasiswa_103082400039 data = new DataMahasiswa_103082400039();
             data.ReadJSON();
 
             KuliahMahasiswa_103082400039.ReadJSON();
-        }
     }
 }
+
