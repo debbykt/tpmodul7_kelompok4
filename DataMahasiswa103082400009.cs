@@ -32,7 +32,7 @@ namespace tpmodul7_kelompok_4
                 {
                     foreach (var mhs in data.mahasiswa)
                     {
-                        Console.WriteLine($"Nama {mhs.firstName} {mhs.lastName} dengan nim {mhs.nim} dari fakultas {mhs.fakultas}");
+                        Console.WriteLine($"Nama : {mhs.firstName} {mhs.lastName} dengan nim {mhs.nim} dari fakultas {mhs.fakultas}");
                     }
                 }
             }
