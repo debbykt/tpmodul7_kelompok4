@@ -1,3 +1,8 @@
+
+
+namespace tpmodul7_kelompok_4
+{
+
 class Program
 {
     static void Main(string[] args)
@@ -18,6 +23,12 @@ class Program
         // debby
         DataMahasiswa103082400029.ReadJSON();
         KuliahMahasiswa103082400029.ReadJSON();
+      
+      //amanda
+       DataMahasiswa_103082400039 data = new DataMahasiswa_103082400039();
+            data.ReadJSON();
+
+            KuliahMahasiswa_103082400039.ReadJSON();
     }
 }
 
