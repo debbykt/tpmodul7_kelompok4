@@ -1,5 +1,4 @@
 ﻿using tpmodul7_kelompok_4;
-using static tpmodul7_kelompok_4.KuliahMahasiswa103082400009;
 
 internal class Program
 {
