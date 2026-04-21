@@ -1,0 +1,10 @@
+{
+  "mahasiswa": [
+    {
+      "firstName": "NamaDepan",
+      "lastName": "NamaBelakang",
+      "nim": "1234567890",
+      "fakultas": "Informatika"
+    }
+  ]
+}
